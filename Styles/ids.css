@@ -30,6 +30,10 @@ body {
 
 #LoveLetter p {
     margin-top: 0 !important;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
 }
 
 #nextPage1 {
