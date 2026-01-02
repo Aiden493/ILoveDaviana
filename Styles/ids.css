@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: hotpink;
+}
+
+
+
+#mainScreen {
+    padding-top: 140px;
+}
+
+
+
+
+#LoveLetter {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#LoveLetter p {
+    margin-top: 0 !important;
+}
+
+#nextPage1 {
+    font-size: 1.8rem;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #000000, #333333);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    transition: all 0.25s ease;
+}
+
+#nextPage1:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(135deg, #222222, #444444);
+}
+
+#nextPage1:active {
+    transform: translateY(0);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
