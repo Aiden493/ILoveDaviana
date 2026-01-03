@@ -9,14 +9,16 @@ body {
     background-color: hotpink;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 #mainScreen {
     padding-top: 140px;
 }
-
-
-
 
 #LoveLetter {
     width: 90%;
@@ -29,32 +31,56 @@ body {
 }
 
 #LoveLetter p {
-    margin-top: 0 !important;
+    margin-top: 0;
     color: white;
     font-size: 1.2rem;
     line-height: 1.6;
     text-align: center;
 }
 
-#nextPage1 {
-    font-size: 1.8rem;
-    padding: 18px 40px;
-    border: none;
-    border-radius: 14px;
-    background: linear-gradient(135deg, #000000, #333333);
+#LoveLetter2{
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#LoveLetter2 p {
+    margin-top: 0;
     color: white;
-    cursor: pointer;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-    transition: all 0.25s ease;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
 }
 
-#nextPage1:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(135deg, #222222, #444444);
+
+#backScreen {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
 }
 
-#nextPage1:active {
-    transform: translateY(0);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+#nextPage2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#nextPage3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+img {
+    width: 300px;
+    max-height: 400px;
+    height: auto;
+    object-fit: cover;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

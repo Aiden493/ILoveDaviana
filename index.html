@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="./Styles/class.css">
-    <link rel="stylesheet" href="Styles/ids.css">
+    <link rel="stylesheet" href="./Styles/ids.css">
+
     <title>iLoveHer</title>
 </head>
 
@@ -16,7 +18,6 @@
     </header>
 
     <main id="mainScreen">
-
         <div id="LoveLetter">
             <p>
                 Daviana, ever since I met you, every day I’ve found myself falling more in love with you.
@@ -38,15 +39,41 @@
         </div>
 
         <div class="button-wrapper">
-            <button id="nextPage1">Next Page</button>
+            <button id="nextPage" class = "nextPage1">Next Page</button>
         </div>
-
-        <div id = "secondScreen" class = "hidden">
-            <button id = "backButton">Go Back</button>
-        </div>
-
-        <script src="Scripts/buttonMap.js"></script>
     </main>
+
+
+    <main id="secondScreen" class="hidden">
+            <div id = "LoveLetter">
+                <img src = "images/firstDate.jpeg">
+                <img src = "images/selfe.jpeg">
+            </div>
+            <button id = "nextPage2" class = "nextPage1">Next Page</button>
+            <button id = "backScreen" class="back-btn">Back</button>
+    </main>
+
+
+    <main id = "thirdScreen" class = "hidden">
+        <div id = "LoveLetter">
+            <h1>Daviana favorite dog memes</h1>
+            <img src = "images/cuteDog.jpeg">
+            <img src = "images/disgustedDog.jpeg">
+            <img src = "images/dogInDress.jpeg">
+            <img src = "images/twerkingDog.jpeg">
+            <button id = "nextPage3" class = "nextPage1">Next Page</button>
+        </div>
+
+        <button id = "backButton" class="back-btn">Back</button>
+    </main>
+
+    <main id = "finalScreen" class = "hidden">
+        <div id = "LoveLetter2">
+            <p>Daviana, you truly mean everything to me. I admire your mind, your heart, and who you are as a person. Being with you makes me really happy, and I was wondering would you like to be my girlfriend?</p>
+        </div>
+    </main>
+
+    <script src="Scripts/buttonMap.js"></script>
 
 </body>
 
