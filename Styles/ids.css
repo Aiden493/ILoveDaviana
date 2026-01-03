@@ -1,24 +1,38 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+
+html, body {
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+
 body {
     font-family: sans-serif;
     background-color: hotpink;
 }
 
+
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 100vh; 
 }
 
 
 #mainScreen {
     padding-top: 140px;
+    position: relative; 
 }
+
 
 #LoveLetter {
     width: 90%;
@@ -31,25 +45,24 @@ main {
 }
 
 #LoveLetter p {
-    margin-top: 0;
     color: white;
     font-size: 1.2rem;
     line-height: 1.6;
     text-align: center;
 }
 
-#LoveLetter2{
+
+#LoveLetter2 {
     width: 90%;
     max-width: 800px;
-    margin: 0 auto;
-    margin-top: 100px;
+    margin: 100px auto 0;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 #LoveLetter2 p {
-    margin-top: 0;
     color: white;
     font-size: 1.2rem;
     line-height: 1.6;
@@ -57,19 +70,9 @@ main {
 }
 
 
-#backScreen {
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-}
-
-#nextPage2{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-#nextPage3{
+#backScreen,
+#nextPage2,
+#nextPage3 {
     display: flex;
     justify-content: center;
     margin-top: 50px;
